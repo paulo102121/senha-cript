@@ -2,7 +2,7 @@ Helper to encrypt strings with custom key with php
 
 In composer
 
-composer require master102121/encryptor
+composer require senha/cript
 
 use Senha\Cript\SaltCrypt;
 
