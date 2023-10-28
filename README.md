@@ -1,7 +1,4 @@
-Helper to encrypt strings with custom key with php
-
-In composer
-
+#Helper to encrypt strings with custom key with php
 composer require senha/cript
 
 use Senha\Cript\SaltCrypt;
@@ -16,4 +13,6 @@ $encrypted = $scp->encrypt();
 
 
 $decrypted = $scp->decrypt($mykey);
+
+(It's converted to base_64 in order to save in mysql)
 
